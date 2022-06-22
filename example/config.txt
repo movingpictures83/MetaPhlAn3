@@ -1,0 +1,2 @@
+Prefix plugins/MetaPhlAn3/example
+Plugin MetaPhlAn3 inputfile parameters.metaphlan3.txt outputfile .

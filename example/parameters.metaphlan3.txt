@@ -1,0 +1,3 @@
+/biorg/data/DB/CHOCOPhlAn/
+plugins/MetaPhlAn3/example/file1
+plugins/MetaPhlAn3/example/file2

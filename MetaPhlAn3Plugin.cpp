@@ -22,7 +22,7 @@ void MetaPhlAn3Plugin::output(std::string file) {
  std::string outputfile = file;
  std::string myCommand;
  for (int i = 0; i < samples.size(); i++) {
-	 myCommand = "metaphlan "+samples[i]+"_R1_001.fastq,"+samples[i]+"_R2_001.fastq --index DB --input_type fastq --no_map --ignore_archaea --ignore_eukaryotes  --bowtie2db /biorg/data/DB/CHOCOPhlAn/   -o "+outputfile+"/"+samples[i].substr(samples[i].find_last_of('/')+1)+"_all.txt";
+	 myCommand = "metaphlan "+samples[i]+"_R1_001.fastq,"+samples[i]+"_R2_001.fastq --index DB --input_type fastq --no_map --ignore_archaea --ignore_eukaryotes  --bowtie2db "+database+"   -o "+outputfile+"/"+samples[i].substr(samples[i].find_last_of('/')+1)+"_all.txt";
 //myCommand += "metaphlan2.py " + inputfile + " --input_type fastq > " + outputfile;
 
  //myCommand += " ";
